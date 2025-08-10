@@ -1,3 +1,4 @@
+ :root{ --light:#F4F4FD; } 
 
 /* fonts */
 body{ font-family:"Roboto", sans-serif; color:#434455; background-color:#FFFFFF; }
@@ -59,4 +60,4 @@ body{ font-family:"Roboto", sans-serif; color:#434455; background-color:#FFFFFF;
 footer{ background-color:#2e2f42; }
 footer .logo{ color:#4d5ae5; }
 footer .logo-accent{ color:#f4f4fd; }
-footer p{ color:#f4f4fd; line-height:1.5; letter-spacing:0.02em; }
+footer p{ color:var(--light); line-height:1.5; letter-spacing:0.02em; }
